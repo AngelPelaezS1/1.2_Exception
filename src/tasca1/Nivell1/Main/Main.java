@@ -1,7 +1,7 @@
-package tasca1.Main;
+package tasca1.Nivell1.Main;
 
-import tasca1.Moduls.EmptySaleExceptions;
-import tasca1.Moduls.Sale;
+import tasca1.Nivell1.Moduls.EmptySaleExceptions;
+import tasca1.Nivell1.Moduls.Sale;
 
 public class Main {
 

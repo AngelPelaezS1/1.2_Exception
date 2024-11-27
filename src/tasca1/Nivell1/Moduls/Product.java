@@ -1,4 +1,4 @@
-package tasca1.Moduls;
+package tasca1.Nivell1.Moduls;
 
 public class Product {
 
