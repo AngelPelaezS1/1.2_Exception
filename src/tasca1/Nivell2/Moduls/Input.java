@@ -145,8 +145,9 @@ public class Input {
                     throw new ExtepcionInput("Formatting error: Please enter 'y' or 'n'.");
                 }
             } catch (ExtepcionInput extepcionInput) {
-                System.out.println(extepcionInput.getMessage()); // Mensaje amigable
+                System.out.println(extepcionInput.getMessage());
             }
+            teclado.close();
         }
     }
 }

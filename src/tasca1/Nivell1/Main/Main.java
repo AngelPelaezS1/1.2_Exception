@@ -11,7 +11,7 @@ public class Main {
             Sale sale = new Sale();
             sale.calculateTotal();
         } catch (EmptySaleExceptions emptySaleExceptions) {
-            emptySaleExceptions.printStackTrace();
+            emptySaleExceptions.getMessage();
         }
     }
 }
